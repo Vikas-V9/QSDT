@@ -87,7 +87,7 @@ namespace counting2
                 rbBlack.Checked = false;
                 rbRed.Checked = false;
                 rbBlue.Checked = false;
-                txtDivisibleNumber.ForeColor = Color.Green;
+                txtDivisibleNumber.ForeColor = Color.red-green;
 
             }
         }
@@ -133,7 +133,7 @@ namespace counting2
                 e.Handled = true;
             }
 
-            // only allow one decimal point
+            // only allow one decimal point @View-mode-secular-t2
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
