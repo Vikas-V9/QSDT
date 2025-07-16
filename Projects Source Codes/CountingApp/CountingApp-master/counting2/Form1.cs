@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.quant.Forms;    
 
 namespace counting2
 {
@@ -27,6 +28,7 @@ namespace counting2
         string divisibleNumber;
         private void Form1_Load(object sender, EventArgs e)
         {
+            cmbDivisibleTerm.Items.Add("1");
             cmbDivisibleTerm.Items.Add("2");
             cmbDivisibleTerm.Items.Add("3");
             cmbDivisibleTerm.Items.Add("4");
@@ -35,6 +37,7 @@ namespace counting2
             cmbDivisibleTerm.Items.Add("7");
             cmbDivisibleTerm.Items.Add("9");
             cmbDivisibleTerm.Items.Add("10");
+           
 
 
         }
